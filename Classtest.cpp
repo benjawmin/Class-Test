@@ -1,5 +1,7 @@
 #include "hw08.h"
 
+//Whenever a class member variable is a pointer problems may occurr and precautions should be taken 
+
 int main()
 {
     doctorType doctor;
