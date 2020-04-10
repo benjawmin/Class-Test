@@ -17,7 +17,7 @@ int main()
         cout << "1. View or access doctors data" << endl;
         cout << "2. View or access charges to patient" << endl;
         cout << "3. View or access patient info" << endl;
-        cout << "4. View or access dates " << endl;
+        cout << "4. Exit" << endl;
         cin >> choice;
         if(choice == 1)
         {
@@ -114,11 +114,11 @@ int main()
                     }
                     else
                     {
-                        cout << DOB << endl;
-                        cout << PatientName << endl;
-                        cout << PhysicianName << endl;
-                        cout << AdmitDate << endl;
-                        cout << DischargeDate << endl;
+                        cout << date.DOB << endl;
+                        cout << date.PatientName << endl;
+                        cout << date.PhysicianName << endl;
+                        cout << date.AdmitDate << endl;
+                        cout << date.DischargeDate << endl;
                     }
                 }
                 else if(choice == 2)
